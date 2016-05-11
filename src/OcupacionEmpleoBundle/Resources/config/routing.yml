@@ -1,0 +1,21 @@
+ocupacion_empleo_homepage:
+    path:     /
+    defaults: { _controller: OcupacionEmpleoBundle:Default:index }
+ocupacion_empleo_activa:
+    path:    /poblacion/activa/economicamente
+    defaults: { _controller: OcupacionEmpleoBundle:Default:activa }
+Opcupacion_empleo_no_activa:
+    path:    /poblacion/no/activa/economicamente
+    defaults: { _controller: OcupacionEmpleoBundle:Default:noActiva }
+ocupacion_empleo_sector_eonomico:
+    path:    /poblacion/por/sector
+    defaults: { _controller: OcupacionEmpleoBundle:Default:sectorEconomico }
+ocupacion_empleo_por_ocupacion:
+    path:   /poblacion/por/posicion/ocupacion
+    defaults: { _controller: OcupacionEmpleoBundle:Default:posicionOcupacion }
+desocupacion_empleo_por_antecedente_laboral:
+    path:   /desocupacion/por/antecedente/laboral
+    defaults: { _controller: OcupacionEmpleoBundle:Default:desocupacion }
+promedios:
+    path:   /promedios/edad
+    defaults: { _controller: OcupacionEmpleoBundle:Default:edad }

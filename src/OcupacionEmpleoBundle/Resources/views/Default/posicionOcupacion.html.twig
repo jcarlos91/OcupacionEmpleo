@@ -1,0 +1,47 @@
+{% extends 'OcupacionEmpleoBundle::main.html.twig' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block contenido %}
+	<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	<table class="table table-striped" id="datatable" border="1px">
+		<thead>
+	        <tr>
+	            <th></th>
+	            <th>Total</th>
+	            <th>Hombres</th>
+				<th>Mujeres</th>
+	        </tr>
+	    </thead>
+		<tr>
+			<th>Población subocupada por posición en la ocupación</th>
+			<th>4417200</th>
+			<th>2884237</th>
+			<th>1532963</th>
+		</tr>
+		<tr>
+			<th>Trabajadores subordinados y remunerados</th>
+			<th>2254350</th>
+			<th>1602184</th>
+			<th>652166</th>
+		</tr>
+		<tr>
+			<th>Empleadores</th>
+			<th>188980</th>
+			<th>149125</th>
+			<th>39855</th>
+		</tr>
+		<tr>
+			<th>Trabajadores por cuenta propia</th>
+			<th>270575</th>
+			<th>1004423</th>
+			<th>698872</th>
+		</tr>
+		<tr>
+			<th>Trabajadores no remunerados</th>
+			<th>301228</th>
+			<th>128505</th>
+			<th>142070</th>
+		</tr>
+	</table>
+{% endblock %}

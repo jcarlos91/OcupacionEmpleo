@@ -1,0 +1,35 @@
+{% extends 'OcupacionEmpleoBundle::main.html.twig' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block contenido %}
+	<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	<table class="table table-striped" id="datatable" border="1px">
+		<thead>
+	        <tr>
+	            <th></th>
+	            <th>Total</th>
+	            <th>Hombres</th>
+				<th>Mujeres</th>
+	        </tr>
+	    </thead>
+		<tr>
+			<th>Población no económicamente activa (PNEA)</th>
+			<th>35245165</th>
+			<th>9235102</th>
+			<th>26010063</th>
+		</tr>
+		<tr>
+			<th>Disponible</th>
+			<th>5919605</th>
+			<th>1840247</th>
+			<th>4079358</th>
+		</tr>
+		<tr>
+			<th>No disponible</th>
+			<th>29325560</th>
+			<th>7394855</th>
+			<th>21930705</th>
+		</tr>
+	</table>
+{% endblock %}

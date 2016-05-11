@@ -1,0 +1,47 @@
+{% extends 'OcupacionEmpleoBundle::main.html.twig' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block contenido %}
+	<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	<table class="table table-striped" id="datatable" border="1px">
+		<thead>
+	        <tr>
+	            <th></th>
+	            <th>Total</th>
+	            <th>Hombres</th>
+				<th>Mujeres</th>
+	        </tr>
+	    </thead>
+		<tr>
+			<th>Población ocupada por sector de actividad económica</th>
+			<th>51568519</th>
+			<th>31757776</th>
+			<th>19810743</th>
+		</tr>
+		<tr>
+			<th>Primario</th>
+			<th>6895957</th>
+			<th>6092725</th>
+			<th>803232</th>
+		</tr>
+		<tr>
+			<th>Secundario</th>
+			<th>12743204</th>
+			<th>9452904</th>
+			<th>3290300</th>
+		</tr>
+		<tr>
+			<th>Terciario</th>
+			<th>31628130</th>
+			<th>16002486</th>
+			<th>15625644</th>
+		</tr>
+		<tr>
+			<th>No especificado</th>
+			<th>301228</th>
+			<th>209661</th>
+			<th>91567</th>
+		</tr>
+	</table>
+{% endblock %}

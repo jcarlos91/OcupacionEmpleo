@@ -1,0 +1,23 @@
+{% extends 'OcupacionEmpleoBundle::main.html.twig' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block contenido %}
+	<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	<table class="table table-striped" id="datatable" border="1px">
+		<thead>
+	        <tr>
+	            <th></th>
+	            <th>Total</th>
+	            <th>Hombres</th>
+				<th>Mujeres</th>
+	        </tr>
+	    </thead>
+		<tr>
+			<th>Edad promedio de la población económicamente activa</th>
+			<th>38.79235</th>
+			<th>38.85999</th>
+			<th>38.68423</th>
+		</tr>
+	</table>
+{% endblock %}

@@ -1,0 +1,4 @@
+services:
+#    ocupacion_empleo.example:
+#        class: OcupacionEmpleoBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

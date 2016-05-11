@@ -1,0 +1,14 @@
+#pie{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	height: 50px;
+	margin-top: 2px;
+	text-align: center;
+	line-height: 50px;
+	color: #333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;	
+    width: 100%;
+    top: 10;	
+    position: absolute;
+}

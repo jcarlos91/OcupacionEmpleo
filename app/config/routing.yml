@@ -1,0 +1,3 @@
+ocupacion_empleo:
+    resource: "@OcupacionEmpleoBundle/Resources/config/routing.yml"
+    prefix:   /

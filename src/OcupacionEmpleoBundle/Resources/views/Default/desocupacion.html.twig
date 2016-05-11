@@ -1,0 +1,35 @@
+{% extends 'OcupacionEmpleoBundle::main.html.twig' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block contenido %}
+	<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	<table class="table table-striped" id="datatable" border="1px">
+		<thead>
+	        <tr>
+	            <th></th>
+	            <th>Total</th>
+	            <th>Hombres</th>
+				<th>Mujeres</th>
+	        </tr>
+	    </thead>
+		<tr>
+			<th>Población desocupada por antecedente laboral</th>
+			<th>2240498</th>
+			<th>1342302</th>
+			<th>898196</th>
+		</tr>
+		<tr>
+			<th>Con experiencia</th>
+			<th>2027818</th>
+			<th>1245198</th>
+			<th>782620</th>
+		</tr>
+		<tr>
+			<th>Sin experiencia</th>
+			<th>212680</th>
+			<th>97104</th>
+			<th>115576</th>
+		</tr>
+	</table>
+{% endblock %}
