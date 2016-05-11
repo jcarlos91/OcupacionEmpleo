@@ -12,3 +12,6 @@
     top: 10;	
     position: absolute;
 }
+#pie>a{
+	display: inline;
+}
